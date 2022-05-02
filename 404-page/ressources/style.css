@@ -1,0 +1,57 @@
+body {
+    background-color: #c0c0c0;
+    font-family: 'XoloniumRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+img {
+
+    border-radius: 75px;
+    width: 150px;
+    border: 10px solid black;
+    animation-name: border;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    0% {
+        border-color: black;
+    }
+
+    12.5% {
+        border-color: red;
+    }
+
+    25% {
+        border-color: orangered;
+    }
+
+    37.5% {
+        border-color: orange;
+    }
+
+    50% {
+        border-color:yellow;
+    }
+
+    62.5% {
+        border-color: orange;
+    }
+
+    75% {
+        border-color: orangered;
+    }
+
+    87.5% {
+        border-color: red;
+    }
+
+    100% {
+        border-color: black;
+    }
+
+
+}
