@@ -19,11 +19,6 @@ footer {
     box-sizing: border-box;
 }
 
-p{
-    margin: auto;
-    box-sizing: border-box;
-    display: block; 
-}
 .error {
     position: fixed;
     bottom: 60%;
@@ -43,9 +38,8 @@ p{
 }
 
 img {
-    
+
     width: 150px;
-    
     animation-name: filter;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -67,8 +61,8 @@ img:hover {
     }
 
     100% {
-        -webkit-filter: drop-shadow(0px 5px 0px #7a070780) drop-shadow(0px -5px 10px #7a070780);
-        filter: drop-shadow(0px 5px 0px #7a070780) drop-shadow(0px -5px 10px #7a070780);
+        -webkit-filter: drop-shadow(0px 5px 0px #7a070780) drop-shadow(0px -5px 0px #7a070780);
+        filter: drop-shadow(0px 5px 0px #7a070780) drop-shadow(0px -5px 0px #7a070780);
     }
 }
 
