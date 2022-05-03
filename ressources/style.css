@@ -47,8 +47,8 @@ img {
 }
 
 img:hover {
-    -webkit-filter: drop-shadow(0px 15px 10px red) drop-shadow(0px -15px 10px red);
-    filter: drop-shadow(0px 15px 10px red) drop-shadow(0px -15px 10px red);
+    -webkit-filter: drop-shadow(0px 15px 10px #acacac) drop-shadow(0px -15px 10px #acacac);
+    filter: drop-shadow(0px 15px 10px #acacac) drop-shadow(0px -15px 10px #acacac);
     animation-name: filter;
     animation-duration: 0s;
 
